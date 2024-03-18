@@ -3,6 +3,6 @@
 - [x] Go (In Progress)
 - [ ] Rust (Soon)
 - [ ] Ocaml (Soon)
-# MyLearning - C (Goal)
+## MyLearning - C (Goal)
 - Basic
 - DSA
