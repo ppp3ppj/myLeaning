@@ -1,7 +1,7 @@
 ## MyLearning many languages
 - [x] C (In Progress)
 - [x] Go (In Progress)
-- [ ] Rust (Soon)
+- [x] Rust (In Progress)
 - [ ] Ocaml (Soon)
 ## MyLearning - C (Goal)
 - Basic
