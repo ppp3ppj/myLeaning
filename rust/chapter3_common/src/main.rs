@@ -41,5 +41,56 @@ fn main() {
         let mut spaces = "    ";
         spaces = spaces.len();
     */
-}
 
+    //------ Data Types ------
+    let guess: u32 = "42".parse().expect("Not a number");
+    // Scalar Type : pepresents a single vaule. rust has four primary scalar types: integers,
+    // floating-point numbers, Booleans, and characters.
+    //
+    //let int_overflow: u8 = 256; it //error integer overflow because u8 ragnge is 0..=255
+
+    let xx = 2.0; // f64
+    let yy: f32 = 3.0; //f32
+    let sum = 6 + 10;
+
+    let difference = 95.5 - 4.3;
+    let product = 4 * 30;
+
+    let quotient = 56.5 / 32.2;
+    let truncated = -5 / 3;
+    let remainder = 43 % 5;
+
+    let t = true;
+    let f: bool = false; // with explicit type annotation
+
+    let c = 'Z';
+    let z: char = 'Z'; // with explicit type annotation
+    let heart_eyed_cat = 'e'; // storing utf-8 encoded text with string in chapter 8
+    // ---- Tuple type ----
+    let tup: (i32, f64, u8) = (500, 3.48, 8);
+    let extup = (400, 3.44, 8);
+    let tub_a = (600, 6.4, 1);
+    let (xxx, yyy, zzz) = tub_a;
+    println!("The vaule of yyy is: {yyy}");
+
+
+    // tuple index . to access each element
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let five_hundred = x.0;
+    let six_point_four = x.1;
+    let one = x.2;
+
+    // ---- Array tuple ----
+    let a = [1, 2, 3, 4, 5]; // array of i32
+    // array of &str
+    let months = ["Jan", "Feb", "Mar", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    // array of i32 and set lenght is 5
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+
+    // or this
+    // // 3 is initial vaule
+    // it same to writting let a = [3, 3, 3, 3, 3];
+    let a = [3; 5]; // it mean in array have 3 all member and lenght is 5 equal above
+
+
+}
