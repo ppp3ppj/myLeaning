@@ -92,5 +92,30 @@ fn main() {
     // it same to writting let a = [3, 3, 3, 3, 3];
     let a = [3; 5]; // it mean in array have 3 all member and lenght is 5 equal above
 
+    // ---- functions ----
+    another_function();
+    // parameters
+    another_function_params(13);
+    // statements and expressions
+    // -- statements are instruction that perform some action and do not return a value
+    // -- expressions evaluate to a resultant vaule.
 
+    // function with return values
+    let five_num = five();
+
+    // ---- Comments ----
+    // this is comment in rust
+
+}
+
+fn five() -> i32 {
+    5
+}
+
+fn another_function() {
+    println!("Another function.");
+}
+fn another_function_params(x: i32) -> () {
+    println!("The vaule of x is {}", x);
+    println!("The vaule of x is {x}");
 }
