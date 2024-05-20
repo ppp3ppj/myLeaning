@@ -14,6 +14,7 @@ struct tnode {
 struct tnode *addtree(struct tnode *, char *);
 void treeprint(struct tnode *);
 int getword(char *, int);
+struct tnode *talloc(void);
 
 int main() {
     struct tnode *root;
@@ -27,3 +28,10 @@ int main() {
     return 0;
 }
 
+void treeprint(struct tnode *p) {
+    if(p != NULL) {
+        treeprint(p->left);
+        printf("%4d %s\n", p->count, p->word);
+        treeprint(p->right);
+    }
+}
