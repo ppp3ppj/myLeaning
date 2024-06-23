@@ -1,2 +1,3 @@
 module En = En
-let v = "Hello, world!. PPPAM"
+let hello = "Hello"
+let v = hello ^ ", world!. PPPAM"
