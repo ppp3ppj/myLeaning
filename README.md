@@ -1,8 +1,10 @@
 ## MyLearning many languages
 - [x] C (In Progress)
 - [x] Go (In Progress)
-- [x] Rust (In Progress)
+- [x] Zig (In Progress)
+- [x] Elixir (In Progress)
 - [ ] Ocaml (Soon)
-## MyLearning - C (Goal)
+##(Goal)
 - Basic
 - DSA
+- Functional Programing Concept
