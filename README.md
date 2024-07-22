@@ -4,7 +4,7 @@
 - [x] Zig (In Progress)
 - [x] Elixir (In Progress)
 - [ ] Ocaml (Soon)
-##(Goal)
+## (Goal)
 - Basic
 - DSA
 - Functional Programing Concept
