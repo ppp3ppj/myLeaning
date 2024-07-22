@@ -3,3 +3,5 @@ defmodule Math do
     a + b
   end
 end
+
+IO.puts Math.sum(1, 2)
