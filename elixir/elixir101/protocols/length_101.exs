@@ -23,10 +23,20 @@ defimpl Size, for: MapSet do
   def size(set), do: MapSet.size(set)
 end
 
+# Deriving - Any
+defimpl Size, for: Any do
+  def size(_), do: 0
+end
+
 defmodule User do
   defstruct [:name, :age]
 end
 
 defimpl Size, for: User do
   def size(_user), do: 2
+end
+
+defmodule OtherUser do
+  @derive [Size]
+  defstruct [:name, :age]
 end
