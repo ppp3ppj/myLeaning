@@ -18,3 +18,15 @@ end
 defimpl Size, for: List do
   def size(list), do: length(list)
 end
+
+defimpl Size, for: MapSet do
+  def size(set), do: MapSet.size(set)
+end
+
+defmodule User do
+  defstruct [:name, :age]
+end
+
+defimpl Size, for: User do
+  def size(_user), do: 2
+end
